@@ -1,0 +1,56 @@
+body{
+    background-color: #ECF0F1 ;
+}
+.eading
+{
+    text-align: center;
+    color: #FFA07A;
+}
+#container{
+    width: 328px;
+    height: 520px;
+    background-color: white;
+    margin: 0 auto;
+   margin-top: 38px;;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0,2) ,0 6px 28px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+#result{
+    height: 120px;
+}
+#history{
+    text-align: right;
+    height: 28px;
+    margin:  0 20px;
+    padding-top: 28px;
+    color: #C2D1D5;
+    font-weight: bold;
+    font-size: 15px;
+    
+}
+#output
+{
+    text-align: right;
+    height: 68px;
+    margin: 18px 28px;
+    font-weight: 38px;
+}
+#keyboard{
+    height: 480px;
+}
+.operator ,.number ,.empty
+{
+    width: 58px;
+    height: 58px;
+    margin: 11px;
+    float: left;
+   border-width: 0;
+   border-radius: 10px;
+    background-color: #FFA07A;
+    font-size: 15px;
+}
+.empty{
+   background-color: white;
+}
